@@ -5,7 +5,7 @@ export default function Content(props) {
         <div className="text-lg max-w-prose mx-auto">
           <h1>
             <span className="text-3xl text-center font-extrabold tracking-tight text-primary sm:text-4xl">
-            <span class="block">{props.title}</span>
+            <span className="block">{props.title}</span>
             </span>
             {props.children}
           </h1>
