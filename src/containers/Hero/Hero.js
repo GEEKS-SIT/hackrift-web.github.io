@@ -1,8 +1,7 @@
 import hero from "../../assets/hero.png";
-export default function Landing() {
+export default function Hero() {
   return (
     <div
-      id="about"
       className="lg:grid lg:grid-cols-12 lg:gap-8 py-20 items-center"
     >
       <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-4 lg:text-left">
