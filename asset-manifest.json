@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/hackrift-web.github.io/static/css/main.3f1193cd.css",
+    "main.js": "/hackrift-web.github.io/static/js/main.525689f9.js",
+    "static/js/787.c4b7ada1.chunk.js": "/hackrift-web.github.io/static/js/787.c4b7ada1.chunk.js",
+    "static/media/hero.png": "/hackrift-web.github.io/static/media/hero.d1c1455a31c9be531249.png",
+    "static/media/logo.png": "/hackrift-web.github.io/static/media/logo.fcaf2ffaad976df62e96.png",
+    "index.html": "/hackrift-web.github.io/index.html",
+    "main.3f1193cd.css.map": "/hackrift-web.github.io/static/css/main.3f1193cd.css.map",
+    "main.525689f9.js.map": "/hackrift-web.github.io/static/js/main.525689f9.js.map",
+    "787.c4b7ada1.chunk.js.map": "/hackrift-web.github.io/static/js/787.c4b7ada1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f1193cd.css",
+    "static/js/main.525689f9.js"
+  ]
+}
