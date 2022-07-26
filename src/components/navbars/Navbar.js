@@ -25,7 +25,7 @@ export default function Navbar() {
             </ul>
           </div>
           <a className="btn-link btn">
-            <img src={logo} className="mr-3 h-6 sm:h-9" alt="Hackrift Logo" />
+            <img src={logo} className="mr-3 h-6 sm:h-9" alt="HackRift Logo" />
           </a>
         </div>
         <div className="navbar-center hidden lg:flex" >
