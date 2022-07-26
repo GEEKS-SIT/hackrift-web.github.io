@@ -9,6 +9,7 @@ import Sponsors from "./containers/sponsors/Sponsors";
 
 function App() {
   return (
+    <>
     <div className="bg-beige flex flex-col justify-between max-w-[1140px] mx-auto">
       <Navbar />
       <main className="mx-auto px-4 sm:px-6">
@@ -19,8 +20,9 @@ function App() {
         <Sponsors />
         <Contact />
       </main>
-      <Footer />
     </div>
+    <Footer />
+    </>
   );
 }
 
