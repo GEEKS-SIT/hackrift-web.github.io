@@ -1,62 +1,66 @@
 import Content from "../commons/Content";
 
 export default function Schedule() {
-	return (
-		<div id="schedule">
-			<Content title="Schedule">
-				<table className="w-full font-sans table-auto">
-					<thead>
-						<tr>
-							<th colSpan="3">Day 1: Friday, 14 October 2022</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr className="border-y-2 border-primary">
-							<td>7:00pm</td>
-							<td>8:00pm</td>
-							<td>Opening ceremony</td>
-						</tr>
-						<tr className="border-y-2 border-primary">
-							<td>8:00pm</td>
-							<td>8:30pm</td>
-							<td>Consultation Session via Zoom #1</td>
-						</tr>
-						<tr>
-							<th colSpan="3">
-								Day 2: Saturday, 15 October 2022
-							</th>
-						</tr>
-						<tr className="border-y-2 border-primary">
-							<td>2:00pm</td>
-							<td>4:00pm</td>
-							<td>Consultation Session via Zoom #2</td>
-						</tr>
-						<tr>
-							<th colSpan="3">Day 3: Sunday, 16 October 2022</th>
-						</tr>
-						<tr className="border-y-2 border-primary">
-							<td>2:30pm</td>
-							<td>~6:30pm</td>
-							<td>
-								Presentations (8mins presentation, 2mins Q&A)
-							</td>
-						</tr>
-						<tr className="border-y-2 border-primary">
-							<td>7:00pm</td>
-							<td>~7:30pm</td>
-							<td>Speaker session</td>
-						</tr>
-						<tr className="border-y-2 border-primary">
-							<td colSpan="2">7:30pm</td>
-							<td>HR Recruitment Talk</td>
-						</tr>
-						<tr className="border-y-2 border-primary">
-							<td colSpan="2">7:45pm</td>
-							<td>Closing Ceremony</td>
-						</tr>
-					</tbody>
-				</table>
-			</Content>
-		</div>
-	);
+  return (
+    <div id="schedule">
+      <Content title="Schedule">
+        <div className="overflow-x-auto w-full rounded-2xl">
+          <table className="table w-full text-sm md:text-lg">
+            <thead>
+              <tr>
+                <th>Event</th>
+                <th>Time</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="font-bold">Day 1</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Opening Ceremony</td>
+                <td>7:00pm - 8:00pm</td>
+              </tr>
+              <tr>
+                <td>Consultation Session 1</td>
+                <td>8:00pm - 10:00pm</td>
+              </tr>
+              <tr>
+                <td className="font-bold">Day 2</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Consultation Session 2</td>
+                <td>2:00pm - 4:00pm</td>
+              </tr>
+              <tr>
+                <td className="font-bold ">Day 3</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Submission</td>
+                <td>1:00pm</td>
+              </tr>
+              <tr>
+                <td>Speaker Session</td>
+                <td>7:00pm - 7:30pm</td>
+              </tr>
+              <tr>
+                <td>Presentations </td>
+                <td>2:30pm - 6:30pm</td>
+              </tr>
+              <tr>
+                <td>HR Recruitment Talk</td>
+                <td>7:30pm - 7:45pm</td>
+              </tr>
+              <tr>
+                <td>Closing Ceremony</td>
+                <td>7:45pm - 8:00pm</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </Content>
+    </div>
+  );
 }

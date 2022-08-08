@@ -1,15 +1,13 @@
 export default function Content(props) {
   return (
-    <div className="py-16">
-      <div className="px-4 sm:px-6 lg:px-8">
-        <div className="text-lg max-w-prose mx-auto">
-          <h1>
-            <span className="text-3xl text-center font-extrabold tracking-tight text-primary sm:text-4xl">
-            <span className="block">{props.title}</span>
-            </span>
-            {props.children}
-          </h1>
-        </div>
+    <div className="pb-8 lg:py-8">
+      <div className="px-4 lg:px-0">
+        <h1>
+          <span className="text-3xl text-center font-extrabold text-primary sm:text-4xl">
+            <span className="block mb-8">{props.title}</span>
+          </span>
+        </h1>
+        <div className="text-lg mx-auto flex flex-col">{props.children}</div>
       </div>
     </div>
   );

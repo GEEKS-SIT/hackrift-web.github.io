@@ -1,9 +1,7 @@
 import hero from "../../assets/hero.png";
 export default function Hero() {
   return (
-    <div
-      className="lg:grid lg:grid-cols-12 lg:gap-8 py-20 items-center"
-    >
+    <div className="lg:grid lg:grid-cols-12 lg:gap-8 md:py-20 items-center pb-12 md:pb-0; px-4 md:px-0">
       <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-4 lg:text-left">
         <h1>
           <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
