@@ -1,7 +1,8 @@
 let prevScrollPos = window.pageYOffset;
 
 window.onscroll = function () {
-  console.log("hi");
+  scrollFunction();
+
   let currentScrollPos = window.pageYOffset;
   if (prevScrollPos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
@@ -14,9 +15,6 @@ window.onscroll = function () {
 // Get the button
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function () {
-  scrollFunction();
-};
 
 function scrollFunction() {
   const myButton = document.getElementById("btn-back-to-top");
