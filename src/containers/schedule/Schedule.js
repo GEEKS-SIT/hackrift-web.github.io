@@ -4,45 +4,63 @@ export default function Schedule() {
 	return (
 		<div id="schedule">
 			<Content title="Schedule">
-				<table className="table-auto">
+				<table className="w-full font-sans table-auto">
 					<thead>
 						<tr>
-							<th>Day</th>
-							<th>Description</th>
-							<th>Time</th>
+							<th colSpan="3">Day 1: Friday, 14 October 2022</th>
 						</tr>
 					</thead>
 					<tbody>
-						<tr>
-							<td rowSpan="2" className="border-2 border-primary px-8 py-4">Day 1</td>
-							<td className="border-2 border-primary px-8 py-4">Opening ceremony</td>
-							<td className="border-2 border-primary px-8 py-4">7:00pm - 8:00pm</td>
+						<tr className="border-y-2 border-primary">
+							<td>7:00pm</td>
+							<td>8:00pm</td>
+							<td>Opening ceremony</td>
 						</tr>
-						<tr>
-							<td className="border-2 border-primary px-8 py-4">Consultation Session via Zoom #1</td>
-							<td className="border-2 border-primary px-8 py-4">8:00pm - 8:30pm</td>
+						<tr className="border-y-2 border-primary">
+							<td>8:00pm</td>
+							<td>8:30pm</td>
+							<td>Consultation Session via Zoom #1</td>
 						</tr>
+					</tbody>
+					<thead>
 						<tr>
-							<td className="border-2 border-primary px-8 py-4">Day 2</td>
-							<td className="border-2 border-primary px-8 py-4">Consultation Session via Zoom #2</td>
-							<td className="border-2 border-primary px-8 py-4">2:00pm - 4:00pm</td>
+							<th colSpan="3">
+								Day 2: Saturday, 15 October 2022
+							</th>
 						</tr>
-						<tr>
-							<td rowSpan="4" className="border-2 border-primary px-8 py-4">Day 3</td>
-							<td className="border-2 border-primary px-8 py-4">Presentations  (8mins presentation, 2mins Q&A)</td>
-							<td className="border-2 border-primary px-8 py-4">2:30pm - ~6:30pm</td>
+					</thead>
+					<tbody>
+						<tr className="border-y-2 border-primary">
+							<td>2:00pm</td>
+							<td>4:00pm</td>
+							<td>Consultation Session via Zoom #2</td>
 						</tr>
+					</tbody>
+					<thead>
 						<tr>
-							<td className="border-2 border-primary px-8 py-4">Speaker session</td>
-							<td className="border-2 border-primary px-8 py-4">7:00pm - ~7:30pm</td>
+							<th colSpan="3">Day 3: Sunday, 16 October 2022</th>
 						</tr>
-						<tr>
-							<td className="border-2 border-primary px-8 py-4">HR Recruitment Talk</td>
-							<td className="border-2 border-primary px-8 py-4">7:30pm</td>
+					</thead>
+					<tbody>
+						<tr className="border-y-2 border-primary">
+							<td>2:30pm</td>
+							<td>~6:30pm</td>
+							<td>
+								Presentations (8mins presentation, 2mins Q&A)
+							</td>
 						</tr>
-						<tr>
-							<td className="border-2 border-primary px-8 py-4">Closing Ceremony (Announce winners)</td>
-							<td className="border-2 border-primary px-8 py-4">7:45pm</td>
+						<tr className="border-y-2 border-primary">
+							<td>7:00pm</td>
+							<td>~7:30pm</td>
+							<td>Speaker session</td>
+						</tr>
+						<tr className="border-y-2 border-primary">
+							<td colSpan="2">7:30pm</td>
+							<td>HR Recruitment Talk</td>
+						</tr>
+						<tr className="border-y-2 border-primary">
+							<td colSpan="2">7:45pm</td>
+							<td>Closing Ceremony</td>
 						</tr>
 					</tbody>
 				</table>

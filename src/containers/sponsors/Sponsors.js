@@ -12,15 +12,20 @@ export default function Sponsors() {
 					ultricies libero vitae lacus fermentum, vitae dignissim elit
 					imperdiet.
 				</p>
-				<div className="flex flex-wrap justify-center items-center">
+				<div className="flex flex-wrap justify-center items-center ">
 					<a
 						href="https://www.tech.gov.sg/careers/students-and-graduates/"
 						target="_blank"
+						rel="noreferrer"
 					>
-						<img src={govTechLogo} className="my-5 mx-5"></img>
+						<img src={govTechLogo} className="my-5 mx-5" alt="Gov Tech Logo"></img>
 					</a>
-					<a href="https://www.singaporetech.edu.sg/" target="_blank">
-						<img src={SITLogo} className="my-5 mx-5"></img>
+					<a
+						href="https://www.singaporetech.edu.sg/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img src={SITLogo} className="my-5 mx-5" alt="SIT Logo"></img>
 					</a>
 				</div>
 			</Content>
