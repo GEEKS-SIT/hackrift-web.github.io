@@ -14,7 +14,7 @@ export default function Prizes() {
                 </p>
                 <h2 className="card-title flex-none w-full justify-center">
                   <p className="text-3xl flex-none ">🥇</p>
-                  <p className="flex-none">Champions</p>
+                  <p className="flex-none">Champion</p>
                 </h2>
               </div>
             </div>
@@ -25,7 +25,7 @@ export default function Prizes() {
                 </p>
                 <h2 className="card-title flex-none w-full justify-center">
                   <p className="text-3xl flex-none ">🥈</p>
-                  <p className="flex-none">1st Runner-ups</p>
+                  <p className="flex-none">1st Runner-up</p>
                 </h2>
               </div>
             </div>
@@ -36,7 +36,7 @@ export default function Prizes() {
                 </p>
                 <h2 className="card-title flex-none w-full justify-center">
                   <p className="text-3xl flex-none ">🥉</p>
-                  <p className="flex-none">2nd Runner-ups</p>
+                  <p className="flex-none">2nd Runner-up</p>
                 </h2>
               </div>
             </div>

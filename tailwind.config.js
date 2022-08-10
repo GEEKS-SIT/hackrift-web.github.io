@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     colors: {
       transparent: "transparent",
-      beige: "#fff8e2",
+      beige: "#faf6e7",
       darkPurple: "#3e427c",
     },
     extend: {},
@@ -18,7 +18,7 @@ module.exports = {
       {
         mytheme: {
           primary: "#3f417c",
-          secondary: "#F9F3E5",
+          secondary: "#faf6e7",
           accent: "#72a1af",
           neutral: "#3D4451",
           "base-100": "#FFFFFF",
