@@ -45,7 +45,7 @@ export default function FAQ() {
     <div id="FAQ">
       <Content title="FAQ">
         <div class="space-y-4">
-          <Item title="When is HackRifT?">
+          <Item title="When is HackRift?">
             HackRift is a weekend hackathon that will run from 14th October 2022
             to 16th October 2022.
           </Item>
@@ -54,8 +54,8 @@ export default function FAQ() {
             to make new friends and a memorable experience!
           </Item>
           <Item title="What if I don’t have a team?">
-            Don't worry! You may still sign up individually and we will helping
-            you find people to work with.
+            Don't worry! You may still sign up individually and we will help you
+            find people to work with.
           </Item>
           <Item title="How do teams work?">
             Your team must minimally have 3 members and can have up to 5 people!
