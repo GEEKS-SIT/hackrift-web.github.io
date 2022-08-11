@@ -61,7 +61,7 @@ export default function Navbar() {
           Join the Hackathon
         </a>
         <a href="#top" className="btn-link btn px-0">
-          <img src={logo} className="mr-3 h-6 sm:h-9" alt="HackRift Logo" />
+          <img src={logo} className="mr-3 h-6 sm:h-6" alt="HackRift Logo" />
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
