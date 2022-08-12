@@ -44,7 +44,7 @@ export default function FAQ() {
   return (
     <div id="FAQ">
       <Content title="FAQ">
-        <div class="space-y-4 grid grid-cols-2">
+        <div class="space-y-4 grid md:grid-cols-2">
           <p></p>
           <p></p>
           <Item title="When is HackRift?">
