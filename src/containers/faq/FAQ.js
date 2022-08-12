@@ -61,13 +61,29 @@ export default function FAQ() {
             Your team must minimally have 3 members and can have up to 5 people!
             You may sign up together with your friends and hack away!
           </Item>
+          <Item title="I'm interested, but none of my team member has coding experience. Can I still join?">
+            Coding experience is not necessary for this challenge. Judges will
+            also assess other components of your solution! So grab your friends
+            who are keen on putting their prototyping skills and UI/UX Design
+            skills to the test!
+          </Item>
           <Item title="When is the application opening?">
             Registration opens on 12th August 2022! Click{" "}
-            <a href="https://forms.gle/gXjE8Q3a35VwVpjY7">here</a> to apply now!
+            <a href="https://forms.gle/gXjE8Q3a35VwVpjY7" className="underline">
+              here
+            </a>{" "}
+            to apply now!
           </Item>
           <Item title="I still have questions!">
-            Please email us at sit.ict.smc@outlook.com or geeks.sit@gmail.com if
-            you have any questions or concerns : )
+            Please email us at{" "}
+            <a className="underline" href="mailto:sit.ict.smc@outlook.com">
+              sit.ict.smc@outlook.com
+            </a>{" "}
+            or{" "}
+            <a className="underline" href="mailto:geeks.sit@gmail.com">
+              geeks.sit@gmail.com{" "}
+            </a>
+            if you have any questions or concerns : )
           </Item>
         </div>
       </Content>
