@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <div className="bg-beige flex flex-col justify-between">
-        <div className="max-w-[1140px] mx-auto">
+        <div className="max-w-5xl mx-auto">
           <Navbar />
         </div>
 
@@ -21,7 +21,7 @@ function App() {
           <Hero />
         </div>
 
-        <div className="max-w-[1140px] mx-auto">
+        <div className="max-w-6xl mx-auto">
           <About />
           <Schedule />
           <Prizes />

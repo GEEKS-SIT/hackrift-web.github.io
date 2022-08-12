@@ -28,7 +28,7 @@ export default function Navbar() {
             className="menu dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a href="#about" className="btn btn-ghost btn-lg leading-none">
+              <a href="#about" className="btn btn-ghost btn-sm leading-none">
                 About
               </a>
             </li>

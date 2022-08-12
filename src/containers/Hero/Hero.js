@@ -9,9 +9,9 @@ export default function Hero() {
           </span>
         </h1>
         <p className="mt-3 text-base text-orange-400 font-bold sm:mt-5 sm:text-xl lg:text-lg xl:text-4xl">
-          14th - 16th May 2021
+          14th - 16th October 2021
         </p>
-        <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-2xl">
+        <p className="mt-3 text-base font-semibold text-gray-600 sm:mt-5 sm:text-xl lg:text-lg xl:text-2xl">
           HackRift is weekend-long event where students from Singapore Institute
           of Technology can build products that can impact the citizens of
           Singapore. Think outside of the box!
