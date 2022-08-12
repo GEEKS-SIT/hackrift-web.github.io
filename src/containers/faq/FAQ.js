@@ -13,7 +13,7 @@ const Item = ({ title, children }) => {
         className="flex items-center justify-between w-full py-4 focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <p className="font-semibold text-left">{title}</p>
+        <p className="font-semibold text-left text-xl">{title}</p>
         <svg
           viewBox="0 0 24 24"
           className={`w-3 text-gray-600 transform transition-transform duration-200 ${
@@ -33,7 +33,7 @@ const Item = ({ title, children }) => {
       </button>
       {isOpen && (
         <div className="py-4 pt-0">
-          <p className="text-gray-600 lg:text-2xl">{children}</p>
+          <p className="text-gray-600 text-base">{children}</p>
         </div>
       )}
     </div>
@@ -63,7 +63,7 @@ export default function FAQ() {
             Your team must minimally have 3 members and can have up to 5 people!
             You may sign up together with your friends and hack away!
           </Item>
-          <Item title="I'm interested, but none of my team member has coding experience. Can I still join?">
+          <Item title="I don't have coding experience. Can I still join?">
             Coding experience is not necessary for this challenge. Judges will
             also assess other components of your solution! So grab your friends
             who are keen on putting their prototyping skills and UI/UX Design
