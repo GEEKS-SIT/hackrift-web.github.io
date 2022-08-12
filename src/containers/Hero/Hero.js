@@ -1,15 +1,15 @@
 import hero from "../../assets/hero.png";
 export default function Hero() {
   return (
-    <div className="lg:grid lg:grid-cols-12 lg:gap-8 md:py-20 items-center pb-12 md:pb-0; px-12 md:px-12 xl:pl-48">
+    <div className="lg:grid lg:grid-cols-12 lg:gap-8 md:py-20 items-center pb-12 md:pb-0; px-4 md:px-0">
       <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-4 lg:text-left">
         <h1>
-          <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl 2xl:text-8xl">
+          <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
             <span className="block text-darkPurple">48 Hours Hackathon</span>
           </span>
         </h1>
         <p className="mt-3 text-base text-orange-400 font-bold sm:mt-5 sm:text-xl lg:text-lg xl:text-4xl">
-          14th - 16th October 2021
+          14th - 16th October 2022
         </p>
         <p className="mt-3 text-base font-semibold text-gray-600 sm:mt-5 sm:text-xl lg:text-lg xl:text-2xl">
           HackRift is weekend-long event where students from Singapore Institute
