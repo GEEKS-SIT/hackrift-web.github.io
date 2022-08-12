@@ -4,7 +4,7 @@ export default function Hero() {
     <div className="lg:grid lg:grid-cols-12 lg:gap-8 md:py-20 items-center pb-12 md:pb-0; px-12 md:px-12 xl:pl-48">
       <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-4 lg:text-left">
         <h1>
-          <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-8xl">
+          <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl 2xl:text-8xl">
             <span className="block text-darkPurple">48 Hours Hackathon</span>
           </span>
         </h1>
