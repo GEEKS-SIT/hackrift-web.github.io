@@ -5,7 +5,7 @@ export default function Footer() {
     <div className=" bg-primary ">
       <footer className="footer py-10 px-4 lg:px-0 max-w-[1140px] mx-auto text-base-100">
         <div>
-          <img src={logo} className="mr-3 h-6 bg-beige" alt="HackRift Logo" />
+          {/* <img src={logo} className="mr-3 h-6 bg-beige" alt="HackRift Logo" /> */}
           <p className="font-bold">
             SIT HackRift. <br />
             Collaboration by ICT SMC and SIT Geeks
