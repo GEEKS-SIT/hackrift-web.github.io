@@ -33,7 +33,7 @@ const Item = ({ title, children }) => {
       </button>
       {isOpen && (
         <div className="py-4 pt-0">
-          <p className="text-gray-600 text-2xl">{children}</p>
+          <p className="text-gray-600 lg:text-2xl">{children}</p>
         </div>
       )}
     </div>

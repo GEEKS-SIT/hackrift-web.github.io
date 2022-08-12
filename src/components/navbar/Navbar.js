@@ -9,7 +9,7 @@ export default function Navbar() {
     >
       <div className="navbar-start justify-between grow md:grow-none lg:justify-start">
         <div className="dropdown">
-          <label tabIndex="0" className="btn btn-ghost lg:hidden">
+          <label tabIndex="0" className="btn btn-ghost lg:hidden mr-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -69,7 +69,7 @@ export default function Navbar() {
           />
           <img
             src={logoSmall}
-            className="mr-3 h-6 sm:h-6 md:hidden"
+            className="ml-3 h-8 sm:h-6 md:hidden"
             alt="HackRift Logo"
           />
         </a>
