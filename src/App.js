@@ -12,14 +12,22 @@ import scrollbar from "./scrollbar.js";
 function App() {
   return (
     <>
-      <div className="bg-beige flex flex-col justify-between max-w-[1140px] mx-auto">
-        <Navbar />
-        <Hero />
-        <About />
-        <Schedule />
-        <Prizes />
-        <Sponsors />
-        <FAQ />
+      <div className="bg-beige flex flex-col justify-between">
+        <div className="max-w-[1140px] mx-auto">
+          <Navbar />
+        </div>
+
+        <div className="max-w-8xl mx-auto">
+          <Hero />
+        </div>
+
+        <div className="max-w-[1140px] mx-auto">
+          <About />
+          <Schedule />
+          <Prizes />
+          <Sponsors />
+          <FAQ />
+        </div>
       </div>
       <Footer />
       <ScrollTopButton />
