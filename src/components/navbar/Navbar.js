@@ -1,4 +1,5 @@
 import logo from "../../assets/logo.png";
+import logoSmall from "../../assets/logoSmall.png";
 
 export default function Navbar() {
   return (
@@ -61,7 +62,16 @@ export default function Navbar() {
           Join the Hackathon
         </a>
         <a href="#top" className="btn-link btn px-0">
-          <img src={logo} className="mr-3 h-6 sm:h-6" alt="HackRift Logo" />
+          <img
+            src={logo}
+            className="mr-3 h-6 sm:h-6 hidden md:block "
+            alt="HackRift Logo"
+          />
+          <img
+            src={logoSmall}
+            className="mr-3 h-6 sm:h-6 md:hidden"
+            alt="HackRift Logo"
+          />
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
