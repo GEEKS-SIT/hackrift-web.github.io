@@ -5,7 +5,7 @@ const Item = ({ title, children }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border-b">
+    <div className="border-b flex flex-col mx-4">
       <button
         type="button"
         aria-label="Open item"
@@ -13,7 +13,7 @@ const Item = ({ title, children }) => {
         className="flex items-center justify-between w-full py-4 focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <p className="text-lg font-medium">{title}</p>
+        <p className="font-semibold text-left">{title}</p>
         <svg
           viewBox="0 0 24 24"
           className={`w-3 text-gray-600 transform transition-transform duration-200 ${
@@ -33,7 +33,7 @@ const Item = ({ title, children }) => {
       </button>
       {isOpen && (
         <div className="py-4 pt-0">
-          <p className="text-gray-700">{children}</p>
+          <p className="text-gray-600 text-2xl">{children}</p>
         </div>
       )}
     </div>
@@ -44,7 +44,9 @@ export default function FAQ() {
   return (
     <div id="FAQ">
       <Content title="FAQ">
-        <div class="space-y-4">
+        <div class="space-y-4 grid grid-cols-2">
+          <p></p>
+          <p></p>
           <Item title="When is HackRift?">
             HackRift is a weekend hackathon that will run from 14th October 2022
             to 16th October 2022.
