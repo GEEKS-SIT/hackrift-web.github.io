@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.02422124.css",
-    "main.js": "/static/js/main.ebeb201b.js",
-    "static/js/787.c4b7ada1.chunk.js": "/static/js/787.c4b7ada1.chunk.js",
-    "static/media/hero.png": "/static/media/hero.fd215113f45d41059d09.png",
-    "static/media/govTechLogo.png": "/static/media/govTechLogo.84bb8a6b263bee4c3b55.png",
-    "static/media/logo.png": "/static/media/logo.a7ec0346136361b063fc.png",
-    "static/media/logoSmall.png": "/static/media/logoSmall.fcaf2ffaad976df62e96.png",
-    "static/media/SITLogo.png": "/static/media/SITLogo.5d54e106aec7425cc1ec.png",
-    "index.html": "/index.html",
-    "main.02422124.css.map": "/static/css/main.02422124.css.map",
-    "main.ebeb201b.js.map": "/static/js/main.ebeb201b.js.map",
-    "787.c4b7ada1.chunk.js.map": "/static/js/787.c4b7ada1.chunk.js.map"
+    "main.css": "/hackrift-web.github.io/static/css/main.02422124.css",
+    "main.js": "/hackrift-web.github.io/static/js/main.7772b2ef.js",
+    "static/js/787.c4b7ada1.chunk.js": "/hackrift-web.github.io/static/js/787.c4b7ada1.chunk.js",
+    "static/media/hero.png": "/hackrift-web.github.io/static/media/hero.fd215113f45d41059d09.png",
+    "static/media/govTechLogo.png": "/hackrift-web.github.io/static/media/govTechLogo.84bb8a6b263bee4c3b55.png",
+    "static/media/logo.png": "/hackrift-web.github.io/static/media/logo.a7ec0346136361b063fc.png",
+    "static/media/logoSmall.png": "/hackrift-web.github.io/static/media/logoSmall.fcaf2ffaad976df62e96.png",
+    "static/media/SITLogo.png": "/hackrift-web.github.io/static/media/SITLogo.5d54e106aec7425cc1ec.png",
+    "index.html": "/hackrift-web.github.io/index.html",
+    "main.02422124.css.map": "/hackrift-web.github.io/static/css/main.02422124.css.map",
+    "main.7772b2ef.js.map": "/hackrift-web.github.io/static/js/main.7772b2ef.js.map",
+    "787.c4b7ada1.chunk.js.map": "/hackrift-web.github.io/static/js/787.c4b7ada1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.02422124.css",
-    "static/js/main.ebeb201b.js"
+    "static/js/main.7772b2ef.js"
   ]
 }
