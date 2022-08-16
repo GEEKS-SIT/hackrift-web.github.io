@@ -7,7 +7,6 @@ import Schedule from "./containers/schedule/Schedule";
 import Sponsors from "./containers/sponsors/Sponsors";
 import FAQ from "./containers/faq/FAQ";
 import ScrollTopButton from "./components/scrollTopButton/ScrollTopButton";
-import scrollbar from "./scrollbar.js";
 
 function App() {
   return (
