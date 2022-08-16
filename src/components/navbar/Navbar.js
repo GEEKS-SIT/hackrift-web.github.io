@@ -64,13 +64,13 @@ export default function Navbar() {
         <a href="#top" className="btn-link btn px-0">
           <img
             src={logo}
-            className="mr-3 h-6 sm:h-6 hidden md:block "
+            className="mr-3 h-6 sm:h-6 hidden lg:block "
             alt="HackRift Logo"
           />
           <img
             src={logoSmall}
-            className="ml-3 h-8 sm:h-6 md:hidden"
-            alt="HackRift Logo"
+            className="ml-3 h-8 sm:h-6 lg:hidden"
+            alt="Small HackRift Logo"
           />
         </a>
       </div>
